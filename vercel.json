@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "installCommand": "unzip -o *.zip -d . -x '__MACOSX/*' 2>/dev/null; npm install",
+  "installCommand": "for f in *.zip; do unzip -o \"$f\" -d .; done; npm install",
   "buildCommand": "vite build",
   "outputDirectory": "dist",
   "functions": {
