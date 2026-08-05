@@ -1,7 +1,8 @@
 {
+  "framework": null,
+  "installCommand": "unzip -o *.zip -d . -x '__MACOSX/*' 2>/dev/null; npm install",
   "buildCommand": "vite build",
   "outputDirectory": "dist",
-  "framework": "vite",
   "functions": {
     "api/**/*.ts": {
       "runtime": "nodejs20.x"
