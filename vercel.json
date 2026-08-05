@@ -2,10 +2,5 @@
   "framework": null,
   "installCommand": "for f in *.zip; do unzip -o \"$f\" -d .; done; npm install",
   "buildCommand": "vite build",
-  "outputDirectory": "dist",
-  "functions": {
-    "api/**/*.ts": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "outputDirectory": "dist"
 }
